@@ -44,8 +44,8 @@
   .header-container {
     width: 100%;
     display: flex;
-    
     height: 102px;
+
     justify-content: space-between;
     align-items: center;
 }
@@ -143,11 +143,9 @@
     width: 415px;
     height: 798px;
     position: relative;
-    background-color: #D97652;
 }
 
 .hodu-img-container img {
-    background-color: aqua;
     position: absolute;
     bottom: 0;
 
@@ -162,5 +160,58 @@
 }
 
 .line-break-p1{
+    display: block;
+}
+
+
+/* 호두 소개 */
+
+.cat-intro {
+    display: flex;
+    align-items: center;
+    gap: 110px;
+
+    margin-top: 80px;
+}
+
+.cat-des h2{
+    width: 510px;
+    height: 135px;
+    background-color: #D97652;
+
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 125%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+    margin-bottom: 30px;
+}
+
+.cat-des p{
+    width: 510px;
+    height: 40px;
+    background-color: aqua;
+
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
+
+.cat-img-container img{
+    width: 660px;
+    height: 390px;
+    border-radius: 30px;
+}
+
+.intro-line-break1{
+    display: block;
+}
+.intro-line-break2{
     display: block;
 }
