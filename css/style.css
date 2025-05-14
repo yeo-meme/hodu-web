@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: auto;
+    height: auto;
+  }
+  .header-container {
+    width: 100%;
+    display: flex;
+    background-color: aqua;
+    height: 102px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 130px;
+    height: 40px;
+}
+
+.header-nav ul {
+    display: flex;
+    list-style: none;
+  }
+
+
+  .header-nav ul li a {
+    text-decoration: none;
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+    color:black;
+  }
+
+  .header-nav ul li:nth-child(1) a {
+    margin-right: 30px;
+  }
+  .header-nav ul li:nth-child(2) a {
+    margin-right: 30px;
+  }
+  .header-nav ul li:nth-child(3) a {
+    margin-right: 40px;
+  }
+
+  .header-nav ul li a.cta-button {
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+    border-radius: 40px;
+    padding: 15px 30px 15px 29px;
+    background-color:  #D97652;
+    
+  }
