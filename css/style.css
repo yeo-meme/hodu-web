@@ -7,11 +7,40 @@
   .container {
     width: auto;
     height: auto;
+
   }
+
+  h1,p{
+    margin: 0;
+    padding: 0;
+  }
+
+  /* 메인 버튼 */
+
+  main button{
+    width: 140px;
+    height: 50px;
+
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+    border-radius: 40px;
+    padding: 15px 30px 15px 29px;
+    background-color:  #D97652;
+
+    border: none;
+  }
+
+  /* 헤더 */
   .header-container {
     width: 100%;
     display: flex;
-    background-color: aqua;
+    background-color: #F2E9D8;
+    
     height: 102px;
     justify-content: space-between;
     align-items: center;
@@ -63,3 +92,56 @@
     background-color:  #D97652;
     
   }
+
+  /* 탑 히어로 */
+
+.hero-section{
+    
+   background-color: #F2E9D8;
+   display: flex;
+   justify-content: space-between;
+}
+
+.hero-content h1 {
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+    background-color: #D97652;
+    margin-top: 200px;
+
+    width: 737px;
+    height: 120px;
+}
+
+.hero-content p {
+
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+    background-color: #D97652;
+
+    width: 439px;
+    height: 86px;
+}
+
+.hero-section .hodu-img {
+    width: 415px;
+    height: 890px;
+}
+
+/* 텍스트 줄바꿈 */
+.line-break-h {
+    display: block;
+}
+
+.line-break-p1{
+    display: block;
+}
