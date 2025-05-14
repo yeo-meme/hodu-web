@@ -255,11 +255,94 @@
 
     width: 739px;
     height: 42px;
-
-    background-color: #D97652;
-
 }
 
 .highlight-text span {
     color: #D97652;
+}
+
+/* 호두갤러ㅣ */
+
+.cat-gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+     
+    gap: 72px;
+
+    height: 378px;
+
+    background-color: #D97652;
+    
+}
+
+.gallery-tx-container {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    width: 739px;
+    height: 64px;
+
+    background-color: #D97652;
+}
+
+.gallery-content-container {
+    display: flex;
+    align-items: center;
+    gap: 52px;
+
+    margin-top: 90px;
+}
+
+.gallery-tx-container p {
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.gallery-1 img,
+.gallery-2 img,
+.gallery-3 img {
+    border-radius: 30px;
+    width: 378px;
+    height: 378px;
+}
+
+
+
+
+.gallery-tx-container button {
+    width: 147;
+    height: 50;
+    border-radius: 40px;
+
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+/* 갤러리 설명 줄바꿈 */
+.btn-nbsp {
+    display: inline;
+}
+
+.gallery-line-break2 {
+    display: block;
+}
+
+.gallery-line-break1 {
+    display: block;
 }
