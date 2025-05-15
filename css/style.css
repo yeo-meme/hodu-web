@@ -261,7 +261,7 @@
     color: #D97652;
 }
 
-/* 호두갤러ㅣ */
+/* 호두갤러리 */
 
 .cat-gallery-container {
     display: flex;
@@ -273,11 +273,7 @@
     grid-template-columns: repeat(3,1fr); 
      
     gap: 72px;
-
     height: 378px;
-
-    background-color: #D97652;
-    
 }
 
 .gallery-tx-container {
@@ -287,8 +283,6 @@
     align-items: center;
     width: 739px;
     height: 64px;
-
-    background-color: #D97652;
 }
 
 .gallery-content-container {
@@ -315,8 +309,6 @@
     width: 378px;
     height: 378px;
 }
-
-
 
 
 .gallery-tx-container button {
@@ -346,3 +338,132 @@
 .gallery-line-break1 {
     display: block;
 }
+
+/* 구독 */
+
+.subscribe-wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 196px;
+
+    width: 100%;
+    height: 340px;
+
+}
+
+.subscribe-wrap img {
+    width: 100%;
+    height: 340px;
+
+   
+}
+.subscribe {
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    width: 1280px;
+    height: 200px;
+    background-color: #263140;
+
+    border-radius:30px;
+    /* transform: translateY(-106px);  */
+}
+
+.subscribe-content {
+    border-radius: 30px;
+    margin-left: 58px;
+    margin-right: 143px;
+}
+
+.subscribe-content h2 {
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 115%;
+    letter-spacing: 0%;
+
+    color: #FFFFFF;
+
+    background-color: #D97652;
+    width: 466px;
+    height: 46px;
+
+    margin-bottom: 18px;
+}
+
+.subscribe-content p {
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+    color: white;
+
+    width: 491px;
+    height: 36px;
+    background-color: #D97652;
+}
+
+/* 구독 인풋스타일 */
+.ssubscribe-input{
+    display: flex;
+    width: 530px;
+    height: 60px;
+}
+
+.subscribe-input {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    width: 530px;
+    height: 60px;
+    border-radius: 60px;
+
+    background-color: white;
+}
+
+.subscribe-input input {
+    width: 192px;
+    height: 20px;
+
+    border: none;
+    background-color: white;
+
+    margin: 20px 129px 20px 0;
+}
+
+.email-icon {
+    width: 24px;
+    height: 24px;
+    margin: 18px 16px 18px 28px;
+
+    display: block;
+}
+
+input::placeholder {
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+  }
+
+  .subscribe-input button {
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+    width: 136px;
+    height: 50px;
+  }
