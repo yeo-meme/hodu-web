@@ -1,470 +1,499 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .container {
-    width: auto;
-    height: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  }
+.container {
+  width: auto;
+  height: auto;
+}
 
-  h1,p{
-    margin: 0;
-    padding: 0;
-  }
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
 
-  /* 메인 버튼 */
+/* 메인 버튼 */
 
-  main button{
-    width: 140px;
-    height: 50px;
+main button {
+  width: 140px;
+  height: 50px;
 
-    font-family: Spoqa Han Sans Neo;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
-    color: white;
-    border-radius: 40px;
-    padding: 15px 30px 15px 29px;
-    background-color:  #D97652;
+  font-family: Spoqa Han Sans Neo;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: white;
+  border-radius: 40px;
+  padding: 15px 30px 15px 29px;
+  background-color: #d97652;
 
-    border: none;
-  }
+  border: none;
+}
 
+.header-container,
+.hero-section {
+  background-color: #f2e9d8;
+}
+/* 헤더 */
+.header-container {
+  width: 100%;
+  display: flex;
+  height: 102px;
 
-  .header-container,
-  .hero-section{
-    background-color: #F2E9D8;
-  }
-  /* 헤더 */
-  .header-container {
-    width: 100%;
-    display: flex;
-    height: 102px;
-
-    justify-content: space-between;
-    align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-    width: 130px;
-    height: 40px;
+  width: 130px;
+  height: 40px;
 }
 
 .header-nav ul {
-    display: flex;
-    list-style: none;
-  }
+  display: flex;
+  list-style: none;
+}
 
+.header-nav ul li a {
+  text-decoration: none;
+  font-family: Spoqa Han Sans Neo;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
 
-  .header-nav ul li a {
-    text-decoration: none;
-    font-family: Spoqa Han Sans Neo;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    vertical-align: middle;
+  color: black;
+}
 
-    color:black;
-  }
+.header-nav ul li:nth-child(1) a {
+  margin-right: 30px;
+}
+.header-nav ul li:nth-child(2) a {
+  margin-right: 30px;
+}
+.header-nav ul li:nth-child(3) a {
+  margin-right: 40px;
+}
 
-  .header-nav ul li:nth-child(1) a {
-    margin-right: 30px;
-  }
-  .header-nav ul li:nth-child(2) a {
-    margin-right: 30px;
-  }
-  .header-nav ul li:nth-child(3) a {
-    margin-right: 40px;
-  }
+.header-nav ul li a.cta-button {
+  font-family: Spoqa Han Sans Neo;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: white;
+  border-radius: 40px;
+  padding: 15px 30px 15px 29px;
+  background-color: #d97652;
+}
 
-  .header-nav ul li a.cta-button {
-    font-family: Spoqa Han Sans Neo;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
-    color: white;
-    border-radius: 40px;
-    padding: 15px 30px 15px 29px;
-    background-color:  #D97652;
-    
-  }
+/* 탑 히어로 */
 
-  /* 탑 히어로 */
-
-.hero-section{
-    
-    height: 798px;
-   display: flex;
-   justify-content: space-between;
+.hero-section {
+  height: 798px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .hero-content h1 {
-    font-family: Spoqa Han Sans Neo;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 130%;
-    letter-spacing: 0%;
-    vertical-align: middle;
+  font-family: Spoqa Han Sans Neo;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  vertical-align: middle;
 
-    width: 737px;
-    height: 120px;
+  width: 737px;
+  height: 120px;
 
-    margin-top: 200px;
-    margin-bottom: 40px;
-
-    
+  margin-top: 200px;
+  margin-bottom: 40px;
 }
 
 .hero-content p {
+  font-family: Spoqa Han Sans Neo;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  vertical-align: middle;
 
-    font-family: Spoqa Han Sans Neo;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
-    letter-spacing: 0%;
-    vertical-align: middle;
+  width: 439px;
+  height: 86px;
 
-
-    width: 439px;
-    height: 86px;
-
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .hodu-img-container {
-    width: 415px;
-    height: 798px;
-    position: relative;
+  width: 415px;
+  height: 798px;
+  position: relative;
 }
 
 .hodu-img-container img {
-    position: absolute;
-    bottom: 0;
+  position: absolute;
+  bottom: 0;
 
-    width: 415px;
-    height: 766px;
-
+  width: 415px;
+  height: 766px;
 }
 
 /* 텍스트 줄바꿈 */
 .line-break-h {
-    display: block;
+  display: block;
 }
 
-.line-break-p1{
-    display: block;
+.line-break-p1 {
+  display: block;
 }
-
 
 /* 호두 소개 */
 
 .cat-intro {
-    display: flex;
-    align-items: center;
-    gap: 110px;
+  display: flex;
+  align-items: center;
+  gap: 110px;
 
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
-.cat-des h2{
-    width: 510px;
-    height: 135px;
+.cat-des h2 {
+  width: 510px;
+  height: 135px;
 
-    font-family: Spoqa Han Sans Neo;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 125%;
-    letter-spacing: 0%;
-    vertical-align: middle;
+  font-family: Spoqa Han Sans Neo;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 125%;
+  letter-spacing: 0%;
+  vertical-align: middle;
 
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
-.cat-des p{
-    width: 510px;
-    height: 40px;
+.cat-des p {
+  width: 510px;
+  height: 40px;
 
-    font-family: Spoqa Han Sans Neo;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 130%;
-    letter-spacing: 0%;
-    vertical-align: middle;
-
+  font-family: Spoqa Han Sans Neo;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  vertical-align: middle;
 }
 
-.cat-img-container img{
-    width: 660px;
-    height: 390px;
-    border-radius: 30px;
+.cat-img-container img {
+  width: 660px;
+  height: 390px;
+  border-radius: 30px;
 }
 
-.intro-line-break1{
-    display: block;
+.intro-line-break1 {
+  display: block;
 }
-.intro-line-break2{
-    display: block;
+.intro-line-break2 {
+  display: block;
 }
 
 /*센터 텍스트*/
 
 .highlight-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    gap: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    margin-top: 120px;
-    margin-bottom: 88px;
+  gap: 40px;
+
+  margin-top: 120px;
+  margin-bottom: 88px;
 }
 
 .highlight-text h2 {
-    font-family: Spoqa Han Sans Neo;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
-    vertical-align: middle;
+  font-family: Spoqa Han Sans Neo;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
 
-    color: #D97652;
+  color: #d97652;
 
-    width: 929px;
-    height: 60px;
+  width: 929px;
+  height: 60px;
 }
 
 .highlight-text p {
-    font-family: Spoqa Han Sans Neo;
-    font-weight: 400;
-    font-size: 16px;
+  font-family: Spoqa Han Sans Neo;
+  font-weight: 400;
+  font-size: 16px;
 
-    line-height: 140%;
+  line-height: 140%;
 
-    letter-spacing: 0%;
-    text-align: center;
-    vertical-align: middle;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
 
-    width: 739px;
-    height: 42px;
+  width: 739px;
+  height: 42px;
 }
 
 .highlight-text span {
-    color: #D97652;
+  color: #d97652;
 }
 
 /* 호두갤러리 */
 
 .cat-gallery-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .gallery-container {
-    display: grid;
-    grid-template-columns: repeat(3,1fr); 
-     
-    gap: 72px;
-    height: 378px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 72px;
+  height: 378px;
 }
 
 .gallery-tx-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 
-    align-items: center;
-    width: 739px;
-    height: 64px;
+  align-items: center;
+  width: 739px;
+  height: 64px;
 }
 
 .gallery-content-container {
-    display: flex;
-    align-items: center;
-    gap: 52px;
+  display: flex;
+  align-items: center;
+  gap: 52px;
 
-    margin-top: 90px;
+  margin-top: 90px;
 }
 
 .gallery-tx-container p {
-    font-family: Spoqa Han Sans Neo;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
-    letter-spacing: 0%;
-    vertical-align: middle;
+  font-family: Spoqa Han Sans Neo;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  vertical-align: middle;
 }
 
 .gallery-1 img,
 .gallery-2 img,
 .gallery-3 img {
-    border-radius: 30px;
-    width: 378px;
-    height: 378px;
+  border-radius: 30px;
+  width: 378px;
+  height: 378px;
 }
 
-
 .gallery-tx-container button {
-    width: 147;
-    height: 50;
-    border-radius: 40px;
+  width: 147;
+  height: 50;
+  border-radius: 40px;
 
-    font-family: Spoqa Han Sans Neo;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
-    vertical-align: middle;
-    
+  font-family: Spoqa Han Sans Neo;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
 }
 
 /* 갤러리 설명 줄바꿈 */
 .btn-nbsp {
-    display: inline;
+  display: inline;
 }
 
 .gallery-line-break2 {
-    display: block;
+  display: block;
 }
 
 .gallery-line-break1 {
-    display: block;
+  display: block;
 }
 
 /* 구독 */
 
 .subscribe-wrap {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    margin-top: 196px;
+  margin-top: 196px;
 
-    width: 100%;
-    height: 340px;
-
+  width: 100%;
+  height: 340px;
 }
 
 #subscribe-back-img {
-    width: 100%;
-    height: 340px;
-
-   
+  width: 100%;
+  height: 340px;
 }
 .subscribe {
-    position: absolute;
-    top: 0;
-    display: flex;
-    align-items: center;
-    width: 1280px;
-    height: 200px;
-    background-color: #263140;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  width: 1280px;
+  height: 200px;
+  background-color: #263140;
 
-    border-radius:30px;
-    transform: translateY(-106px); 
+  border-radius: 30px;
+  transform: translateY(-106px);
 }
 
 .subscribe-content {
-    border-radius: 30px;
-    margin-left: 58px;
-    margin-right: 143px;
+  border-radius: 30px;
+  margin-left: 58px;
+  margin-right: 143px;
 }
 
 .subscribe-content h2 {
-    font-family: Spoqa Han Sans Neo;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 115%;
-    letter-spacing: 0%;
+  font-family: Spoqa Han Sans Neo;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 115%;
+  letter-spacing: 0%;
 
-    color: #FFFFFF;
+  color: #ffffff;
 
-    background-color: #D97652;
-    width: 466px;
-    height: 46px;
+  background-color: #d97652;
+  width: 466px;
+  height: 46px;
 
-    margin-bottom: 18px;
+  margin-bottom: 18px;
 }
 
 .subscribe-content p {
-    font-family: Spoqa Han Sans Neo;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 130%;
-    letter-spacing: 0%;
-    vertical-align: middle;
+  font-family: Spoqa Han Sans Neo;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  vertical-align: middle;
 
-    color: white;
+  color: white;
 
-    width: 491px;
-    height: 36px;
-    background-color: #D97652;
+  width: 491px;
+  height: 36px;
+  background-color: #d97652;
 }
 
 /* 구독 인풋스타일 */
-.ssubscribe-input{
-    display: flex;
-    width: 530px;
-    height: 60px;
+.ssubscribe-input {
+  display: flex;
+  width: 530px;
+  height: 60px;
 }
 
 .subscribe-input {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
-    align-items: center;
-    width: 530px;
-    height: 60px;
-    border-radius: 60px;
+  align-items: center;
+  width: 530px;
+  height: 60px;
+  border-radius: 60px;
 
-    background-color: white;
+  background-color: white;
 }
 
 .subscribe-input input {
-    width: 192px;
-    height: 20px;
+  width: 192px;
+  height: 20px;
 
-    border: none;
-    background-color: white;
+  border: none;
+  background-color: white;
 
-    margin: 20px 129px 20px 0;
+  margin: 20px 129px 20px 0;
 }
 
 .email-icon {
-    /* position: absolute; */
-    width: 24px;
-    height: 24px;
-    margin: 18px 16px 18px 28px;
+  /* position: absolute; */
+  width: 24px;
+  height: 24px;
+  margin: 18px 16px 18px 28px;
 
-    display: block;
+  display: block;
 }
 
 input::placeholder {
-    font-family: Spoqa Han Sans Neo;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    vertical-align: middle;
-  }
+  font-family: Spoqa Han Sans Neo;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
 
-  .subscribe-input button {
-    font-family: Spoqa Han Sans Neo;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    vertical-align: middle;
+.subscribe-input button {
+  font-family: Spoqa Han Sans Neo;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
 
-    width: 136px;
-    height: 50px;
-  }
+  width: 136px;
+  height: 50px;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 160px;
+}
+.footer-container {
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.social-links .icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #F29D52;
+
+    
+    z-index: 10;
+    position: relative;
+    
+}
+
+.social-links img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+}
