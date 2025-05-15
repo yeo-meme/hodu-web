@@ -198,4 +198,63 @@
     height: 422px;
   }
 
+
+/* 호두소개 */
+
+.intro-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+}
+
+.cat-des h2 {
+    margin: 0;
+    width: 326px;
+    height: 90px;
+  
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+  
+    text-align: left;
+
+    margin-bottom: 20px;
+    background-color: #d97652;
+  }
+
+  /* 한 칸띄워져 보이는 현상으로 삽입 */
+  .intro-line-break1 {
+    display: inline-block;
+  }
+
+  .cat-des p {
+    width: 326px;
+    height: 36px;
+  
+    background-color: #d93652;
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-align: left;
+  }
+
+  .cat-img-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+.cat-img-container img {
+    width: 326px;
+    height: 190px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+  }
+
 }
