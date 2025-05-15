@@ -1,0 +1,84 @@
+
+h2,p{
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+  width: 600px;
+  height: 400px;
+  background-image: url("../images/modal-back.svg");
+  border-radius: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0 40px 0;
+}
+
+.container img {
+  width: 110px;
+  height: 112px;
+
+  background-color: #d97652;
+  margin-bottom: 24px;
+}
+
+.container h2 {
+    
+  font-family: Spoqa Han Sans Neo;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 212px;
+  height: 46px;
+
+
+
+  color: #d97652;
+}
+
+.container p {
+  font-family: Spoqa Han Sans Neo;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+
+  width: 383px;
+  height: 18px;
+
+  margin-top: 12px;
+  margin-bottom: 38px;
+
+  background-color: #d97652;
+}
+
+
+.container button {
+    width: 189px;
+    height: 50px;
+  
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+    border-radius: 40px;
+    padding: 15px 30px 15px 29px;
+    background-color: #d97652;
+  
+    border: none;
+}
+
+.line-break2 {
+    display: inline;
+}
+
