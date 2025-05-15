@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-align: center;
   }
 
   h1,
@@ -85,12 +84,10 @@
     display: none;
   }
 
-
-.logo {
+  .logo {
     width: 92px;
     height: 28px;
   }
-
 
   #sidebar {
     width: 289px;
@@ -106,7 +103,7 @@
   }
 
   /* 보여질 때 */
-#sidebar.show {
+  #sidebar.show {
     display: block;
     transform: translateX(0); /* 오른쪽에서 슬라이드 인 */
   }
@@ -115,22 +112,22 @@
 
   .hero-section {
     width: 100%;
-}
+  }
 
-.hero-inner{
+  .hero-inner {
     height: auto;
     display: flex;
     flex-direction: column;
 
     align-items: center;
-}
+  }
 
-.hero-content {
+  .hero-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.hero-content h1 {
+  }
+  .hero-content h1 {
     margin: 0;
     font-family: Spoqa Han Sans Neo;
     font-weight: 700;
@@ -139,22 +136,21 @@
     letter-spacing: 0%;
     text-align: center;
     vertical-align: middle;
-    
+
     width: 264px;
     height: 90px;
 
     margin-top: 40px;
 
     background-color: #d97652;
-  
   }
 
-/* 헤더 단락 정렬 */
+  /* 헤더 단락 정렬 */
   .mobile-line-break-h {
     display: block;
   }
 
-  .mobile-line-break-p1, 
+  .mobile-line-break-p1,
   .mobile-line-break-p2 {
     display: block;
   }
@@ -164,7 +160,6 @@
     display: inline;
   }
 
-
   .hero-content p {
     font-family: Spoqa Han Sans Neo;
     font-weight: 400;
@@ -172,7 +167,7 @@
     line-height: 140%;
     letter-spacing: 0%;
     vertical-align: middle;
-  
+
     background-color: #d93652;
     width: 280px;
     height: 98px;
@@ -187,7 +182,7 @@
 
     position: relative;
   }
-  
+
   .hodu-img-container img {
     position: absolute;
     bottom: 0;
@@ -198,28 +193,27 @@
     height: 422px;
   }
 
+  /* 호두소개 */
 
-/* 호두소개 */
-
-.intro-inner{
+  .intro-inner {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0px;
-}
+  }
 
-.cat-des h2 {
+  .cat-des h2 {
     margin: 0;
     width: 326px;
     height: 90px;
-  
+
     font-family: Spoqa Han Sans Neo;
     font-weight: 700;
     font-size: 24px;
     line-height: 125%;
     letter-spacing: 0%;
     vertical-align: middle;
-  
+
     text-align: left;
 
     margin-bottom: 20px;
@@ -234,7 +228,7 @@
   .cat-des p {
     width: 326px;
     height: 36px;
-  
+
     background-color: #d93652;
     font-family: Spoqa Han Sans Neo;
     font-weight: 400;
@@ -250,20 +244,19 @@
     margin-bottom: 40px;
   }
 
-.cat-img-container img {
+  .cat-img-container img {
     width: 326px;
     height: 190px;
     border-radius: 30px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
   }
 
-
   /*센터 텍스트*/
   .highlight-text {
     display: flex;
     flex-direction: column;
     align-items: center;
-  
+
     margin-top: 60px;
     margin-bottom: 40px;
 
@@ -279,11 +272,11 @@
     letter-spacing: 0%;
     text-align: center;
     vertical-align: middle;
-  
+
     color: #d97652;
 
     background-color: #333;
-  
+
     width: 326px;
     height: 60px;
   }
@@ -292,19 +285,70 @@
     font-family: Spoqa Han Sans Neo;
     font-weight: 400;
     font-size: 16px;
-  
+
     line-height: 130%;
-  
+
     letter-spacing: 0%;
     text-align: center;
     vertical-align: middle;
-  
+
     width: 326px;
     height: 102px;
 
     background-color: #333;
   }
-.high-mobile-line-break1 {
+  .high-mobile-line-break1 {
     display: block;
-}
+  }
+
+  /* 호두갤러리 */
+
+  .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: start;
+    overflow: hidden;
+    gap: 20px;
+    width: 100%;
+    height: 260px;
+
+    padding-left: 32px;
+  }
+
+  .gallery-1 img,
+  .gallery-2 img,
+  .gallery-3 img {
+    border-radius: 18px;
+    height: 260px;
+    width: 260px;
+
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+  }
+
+  .gallery-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    margin-top: 0px;
+  }
+
+  .gallery-tx-container {
+    background-color: #333;
+    width: 326px;
+    height: 144px;
+
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+
+  .gallery-tx-container p {
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    
+  }
 }
