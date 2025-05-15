@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.wrap {
+    /* background-color: #F29D52; */
+    min-width: 1920px; 
+}
+
 .container {
   width: auto;
   height: auto;
@@ -13,6 +18,14 @@ h1,
 p {
   margin: 0;
   padding: 0;
+}
+
+/* 좌우 여백 공통 */
+
+.inner-container {
+    margin: 0 auto;
+    padding: 0 320px;
+    overflow: hidden; 
 }
 
 /* 메인 버튼 */
@@ -41,12 +54,17 @@ main button {
 }
 /* 헤더 */
 .header-container {
-  width: 100%;
-  display: flex;
-  height: 102px;
+    width: 100%;
+}
 
-  justify-content: space-between;
-  align-items: center;
+
+
+.header-iner {
+    display: flex;
+    height: 102px;
+  
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -97,10 +115,15 @@ main button {
 /* 탑 히어로 */
 
 .hero-section {
-  height: 798px;
-  display: flex;
-  justify-content: space-between;
+    width: 100%;
 }
+
+.hero-inner{
+    height: 798px;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .hero-content h1 {
   font-family: Spoqa Han Sans Neo;
@@ -157,11 +180,15 @@ main button {
 /* 호두 소개 */
 
 .cat-intro {
-  display: flex;
-  align-items: center;
-  gap: 110px;
+    width: 100%;
+}
 
-  margin-top: 80px;
+.intro-inner{
+    display: flex;
+    align-items: center;
+    gap: 110px;
+  
+    margin-top: 80px;
 }
 
 .cat-des h2 {
@@ -372,7 +399,6 @@ main button {
 
   color: #ffffff;
 
-  background-color: #d97652;
   width: 466px;
   height: 46px;
 
@@ -391,7 +417,6 @@ main button {
 
   width: 491px;
   height: 36px;
-  background-color: #d97652;
 }
 
 /* 구독 인풋스타일 */
@@ -460,15 +485,19 @@ footer {
     height: 160px;
 }
 .footer-container {
-
     width: 100%;
     height: 100%;
+}
 
+.footer-inner {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
     align-items: center;
+
+    width: 100%;
+    height: 100%;
 }
 
 .social-links {
