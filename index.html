@@ -130,8 +130,16 @@
 
         <!--블로그 구독-->
         <section class="subscribe-wrap">
-          <img src="./images/img_5.png" alt="고양이 사진" id="subscribe-back-img" />
-          <img src="./images/scroll-top-btn.svg" alt="최상단 버튼" id="scroll-top-btn">
+          <img
+            src="./images/img_5.png"
+            alt="고양이 사진"
+            id="subscribe-back-img"
+          />
+          <img
+            src="./images/scroll-top-btn.svg"
+            alt="최상단 버튼"
+            id="scroll-top-btn"
+          />
           <div class="subscribe">
             <div class="subscribe-content">
               <h2>Subscribe to our Blog post</h2>
@@ -146,7 +154,7 @@
                 <img src="./images/mail.svg" alt="" />
               </span>
               <input type="text" placeholder="Enter your e-mail address" />
-              <button class="subscribe-btn">Subscribe</button>
+              <button class="subscribe-btn" onclick="openThanksModal()">Subscribe</button>
             </div>
           </div>
         </section>
@@ -155,26 +163,49 @@
       <footer>
         <div class="footer-container">
           <div class="footer-inner inner-container">
-          <div class="footer-logo">
-            <img src="./images/Logo-fin.svg" alt="위니브 로고" />
-          </div>
-          <div class="social-links">
-            <div class="blog icon">
-              <img src="./images/blog.svg" alt="블로그 아이콘" />
+            <div class="footer-logo">
+              <img src="./images/Logo-fin.svg" alt="위니브 로고" />
             </div>
-            <div class="instagram icon">
-              <img src="./images/instagram.svg" alt="블로그 아이콘" />
+            <div class="social-links">
+              <div class="blog icon">
+                <img src="./images/blog.svg" alt="블로그 아이콘" />
+              </div>
+              <div class="instagram icon">
+                <img src="./images/instagram.svg" alt="블로그 아이콘" />
+              </div>
+              <div class="facebook icon">
+                <img src="./images/facebook.svg" alt="블로그 아이콘" />
+              </div>
+              <div class="youtube icon">
+                <img src="./images/youtube.svg" alt="블로그 아이콘" />
+              </div>
             </div>
-            <div class="facebook icon">
-              <img src="./images/facebook.svg" alt="블로그 아이콘" />
-            </div>
-            <div class="youtube icon">
-              <img src="./images/youtube.svg" alt="블로그 아이콘" />
-            </div>
-          </div>
           </div>
         </div>
       </footer>
     </div>
+    <script>
+
+      function openThanksModal() {
+        const width = 600;
+        const height = 400;
+
+        // 듀얼모니터 대응
+        const screenLeft =
+          window.screenLeft !== undefined ? window.screenLeft : window.screenX;
+        const screenTop =
+          window.screenTop !== undefined ? window.screenTop : window.screenY;
+
+        // 현재 화면의 가로/세로 중앙 좌표 계산
+        const left = window.screenX + (window.outerWidth - width) / 2;
+        const top = window.screenY + (window.outerHeight - height) / 2;
+
+        const newWindow = window.open(
+          "http://127.0.0.1:5501/modal.html",
+          "",
+          `width=${width},height=${height},left=${left},top=${top},resizable=no`
+        );
+      }
+    </script>
   </body>
 </html>
