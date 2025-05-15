@@ -328,15 +328,22 @@
   .gallery-content-container {
     display: flex;
     flex-direction: column;
+    
+    background-color: #d93652;
     align-items: center;
     gap: 0px;
     margin-top: 0px;
+
+    position: relative;
+    
   }
 
   .gallery-tx-container {
     background-color: #333;
     width: 326px;
     height: 144px;
+
+    position: relative;
 
     margin-top: 60px;
     margin-bottom: 30px;
@@ -350,5 +357,28 @@
     letter-spacing: 0%;
     vertical-align: middle;
     
+  }
+
+ .right-button-align {
+    background-color: aqua;
+    width: 100%;
+    height: 40px;
+    position: relative;
+ }
+
+  .gallery-button {
+    width: 126px;
+    height: 40px;
+    border-radius: 40px;
+
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0%;
+    text-align: center;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
   }
 }
