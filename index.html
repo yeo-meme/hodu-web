@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="귀엽뽀작 호두에 대해 알아가고 정기적으로 호두를 만날 수 있게 구독해보세요."/>
+      content="귀엽뽀작 호두에 대해 알아가고 정기적으로 호두를 만날 수 있게 구독해보세요."
+    />
     <title>귀엽뽀작 호두의 웹페이지</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/mobile.css" />
@@ -20,7 +21,23 @@
               <div class="logo">
                 <a href="#"><img src="./images/Logo-fin.svg" alt="" /></a>
               </div>
-              <img src="./images/menu.svg" alt="네비게이션 버튼" id="mobile-menu-btn">
+              <button
+                class="bg-transparent border-none"
+                id="mobile-menu-btn"
+                onclick="toggleSidebar()"
+              >
+                <img src="./images/menu.svg" alt="네비게이션 버튼" />
+              </button>
+              <div id="sidebar">
+                <nav class="mobile-header-nav">
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#" class="mobile-cta-button">Download</a></li>
+                  </ul>
+                </nav>
+              </div>
               <nav class="header-nav">
                 <ul>
                   <li><a href="#">Home</a></li>
@@ -155,7 +172,9 @@
                 <img src="./images/mail.svg" alt="" />
               </span>
               <input type="text" placeholder="Enter your e-mail address" />
-              <button class="subscribe-btn" onclick="openThanksModal()">Subscribe</button>
+              <button class="subscribe-btn" onclick="openThanksModal()">
+                Subscribe
+              </button>
             </div>
           </div>
         </section>
@@ -186,7 +205,6 @@
       </footer>
     </div>
     <script>
-
       function openThanksModal() {
         const width = 600;
         const height = 400;
@@ -206,6 +224,16 @@
           "",
           `width=${width},height=${height},left=${left},top=${top},resizable=no`
         );
+      }
+
+      function toggleSidebar() {
+
+        const btn = document.getElementById("mobile-menu-btn");
+        const sidebar = document.getElementById("sidebar");
+
+        btn.addEventListener("click", ()=> {
+          alert("버튼!");
+        });
       }
     </script>
   </body>

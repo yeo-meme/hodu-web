@@ -57,6 +57,11 @@ main button {
     width: 100%;
 }
 
+/* 모바일 버전 */
+#mobile-menu-btn, #sidebar {
+  display: none;
+}
+
 
 
 .header-iner {

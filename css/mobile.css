@@ -28,19 +28,17 @@
   }
   /* 좌우 여백 공통 */
 
-.inner-container {
+  .inner-container {
     padding: 0 32px;
-    /* margin: 0 auto;
-   
-    overflow: hidden;  */
-}
+    margin: 0 auto;
+    overflow: hidden;
+  }
 
-/* 메인 버튼 */
-
-main button {
+  /* 메인 버튼 */
+  main button {
     width: 119px;
     height: 40px;
-  
+
     font-family: Spoqa Han Sans Neo;
     font-weight: 700;
     font-size: 14px;
@@ -51,14 +49,18 @@ main button {
     border-radius: 40px;
     padding: 11px 24px 11px 24px;
     background-color: #d97652;
-  
+
     border: none;
   }
 
   /* 헤더 */
-.header-container {
+
+  #mobile-menu-btn {
+    display: block;
+  }
+  .header-container {
     width: 390px;
-}
+  }
 
   .header-iner {
     display: flex;
@@ -66,20 +68,39 @@ main button {
     height: 76px;
 
     padding: 0 20px;
-  
+
     justify-content: space-between;
     align-items: center;
-}
+  }
 
-#mobile-menu-btn {
+  #mobile-menu-btn {
+    all: unset;
     width: 32px;
     height: 32px;
 
     margin: 22px 0;
-}
-.header-nav {
+  }
+  .header-nav {
     display: none;
-}
+  }
 
-  
+
+  #sidebar {
+    width: 289px;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: -289px; /* 초기 위치는 화면 밖 */
+    transition: left 0.3s ease;
+    z-index: 1000;
+    padding: 20px;
+  }
+
+  /* 보여질 때 */
+#sidebar.show {
+    display: block;
+    transform: translateX(0); /* 오른쪽에서 슬라이드 인 */
+  }
 }
