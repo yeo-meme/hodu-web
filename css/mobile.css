@@ -257,4 +257,54 @@
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
   }
 
+
+  /*센터 텍스트*/
+  .highlight-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    margin-top: 60px;
+    margin-bottom: 40px;
+
+    gap: 30px;
+    background-color: #d93652;
+  }
+
+  .highlight-text h2 {
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+  
+    color: #d97652;
+
+    background-color: #333;
+  
+    width: 326px;
+    height: 60px;
+  }
+
+  .highlight-text p {
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 400;
+    font-size: 16px;
+  
+    line-height: 130%;
+  
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+  
+    width: 326px;
+    height: 102px;
+
+    background-color: #333;
+  }
+.high-mobile-line-break1 {
+    display: block;
+}
 }
