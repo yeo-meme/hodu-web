@@ -354,7 +354,7 @@
 
 }
 
-.subscribe-wrap img {
+#subscribe-back-img {
     width: 100%;
     height: 340px;
 
@@ -370,7 +370,7 @@
     background-color: #263140;
 
     border-radius:30px;
-    /* transform: translateY(-106px);  */
+    transform: translateY(-106px); 
 }
 
 .subscribe-content {
@@ -440,6 +440,7 @@
 }
 
 .email-icon {
+    /* position: absolute; */
     width: 24px;
     height: 24px;
     margin: 18px 16px 18px 28px;
