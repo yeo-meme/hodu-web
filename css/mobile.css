@@ -53,10 +53,43 @@
     border: none;
   }
 
-  /* 모바일 버전 aside */
-#mobile-menu-btn, #mobile-sidebar {
-  /* display: block; */
-}
+  .subscribe-btn{
+    width: 117px;
+    height: 40px;
+  
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+    border-radius: 40px;
+    padding: 11px 24px;
+    background-color: #d97652;
+  
+    border: none;
+  } 
+
+  .gallery-button {
+    width: 232px;
+    height: 40px;
+  
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+    border-radius: 40px;
+    padding: 11px 24px;
+    background-color: #d97652;
+  
+    border: none;
+  }
+
+
 /* 사이드바 숨김 기본 상태 */
 #mobile-sidebar {
   position: fixed;          /* 전체 화면 기준으로 고정 */
