@@ -530,5 +530,69 @@
     right: 32px;
     top:60px
   }
+
+  #subscribe-back-img {
+    width: 100%;
+    height: 240px;
+  
+    object-fit: cover;
+  }
+
+/* footer */
+footer {
+  width: 100%;
+  height: 178px;
+  background-color: aqua
+}
+
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+
+  align-items: flex-start;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+
+  margin-top: 58px;
+  background-color: black;
+}
+.social-links .icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #F29D52;
+
+  
+  position: relative;
+  
+}
+
+.blog img,
+.instagram img,
+.facebook img,
+.youtube img{
+  width: 18px;
+  height: 18px;
+}
+.footer-logo{
+  width: 112px;
+  height: 34px;
+
+  margin-top: 30px;
+}
+
+.footer-logo img {
+  width: 112px;
+  height: 34px;
+}
+
+
 }
  
