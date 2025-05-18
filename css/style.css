@@ -34,7 +34,7 @@ main button {
   width: 140px;
   height: 50px;
 
-  font-family: pSoqa Han Sans Neo;
+  font-family: Spoqa Han Sans Neo;
   font-weight: 700;
   font-size: 16px;
   line-height: 100%;
@@ -442,11 +442,7 @@ main button {
 }
 
 /* 구독 인풋스타일 */
-.ssubscribe-input {
-  display: flex;
-  width: 530px;
-  height: 60px;
-}
+
 
 .subscribe-input {
   display: flex;
