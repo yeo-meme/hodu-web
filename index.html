@@ -22,7 +22,7 @@
               <div class="logo">
                 <a href="#"><img src="./images/Logo-fin.svg" alt="" /></a>
               </div>
-                  <!-- 모바일 사이드 메뉴 시작-->
+              <!-- 모바일 사이드 메뉴 시작-->
               <button
                 class="bg-transparent border-none"
                 id="mobile-menu-btn"
@@ -61,22 +61,26 @@
             <div class="hero-content">
               <h1>
                 Lorem Ipsum is simply
-                <span class="line-break-h">dummy text
-                <span class="mobile-line-break-h">of the printing and</span></span>
+                <span class="line-break-h"
+                  >dummy text
+                  <span class="mobile-line-break-h"
+                    >of the printing and</span
+                  ></span
+                >
               </h1>
               <p>
                 Lorem Ipsum is simply dummy text<span
-                class="mobile-line-break-p1"
-                >of the printing and<span
-                  class="line-break-p1"
-                  >typesetting industry.</span
-                ></span>
+                  class="mobile-line-break-p1"
+                  >of the printing and<span class="line-break-p1"
+                    >typesetting industry.</span
+                  ></span
+                >
                 <span class="line-break-p2"
                   >Lorem Ipsum has been the industry's standard dummy text</span
                 >
-                ever since the 1500s,<span
-                class="mobile-line-break-p2"
-                >when an unknown</span>
+                ever since the 1500s,<span class="mobile-line-break-p2"
+                  >when an unknown</span
+                >
               </p>
               <button>Download</button>
             </div>
@@ -94,7 +98,8 @@
             </div>
             <div class="cat-des">
               <h2>
-                Lorem Ipsum is simply<span class="intro-line-break1">dummy text of the printing</span
+                Lorem Ipsum is simply<span class="intro-line-break1"
+                  >dummy text of the printing</span
                 >and dummy text
               </h2>
               <p>
@@ -111,8 +116,9 @@
           <p>
             Lorem Ipsum is simply
             <span class="high-line-break1">dummy text</span> of the printing and
-            typesetting industry.<span class="high-mobile-line-break1">Lorem Ipsum has been the industry's</span>standard
-            dummy text ever since the 1500s, when an unknown
+            typesetting industry.<span class="high-mobile-line-break1"
+              >Lorem Ipsum has been the industry's</span
+            >standard dummy text ever since the 1500s, when an unknown
           </p>
         </section>
 
@@ -146,10 +152,10 @@
               </p>
             </div>
             <div class="right-button-align">
-            <button class="gallery-button">
-              Learn<span class="btn-nbsp">&nbsp;More</span>
-            </button>
-          </div>
+              <button class="gallery-button">
+                Learn<span class="btn-nbsp">&nbsp;More</span>
+              </button>
+            </div>
           </div>
         </section>
 
@@ -167,7 +173,11 @@
           />
           <div class="subscribe">
             <div class="subscribe-content">
-              <h2>Subscribe to our<span class="mobile-line-break-h2">Blog post</span></h2>
+              <h2>
+                Subscribe to our<span class="mobile-line-break-h2"
+                  >Blog post</span
+                >
+              </h2>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
@@ -207,7 +217,16 @@
                 <img src="./images/youtube.svg" alt="블로그 아이콘" />
               </div>
             </div>
+            
           </div>
+          <nav class="mobile-footer-menu">
+            <ul>
+              <li>About</li>
+              <li>Blog</li>
+              <li>Support</li>
+              <li>Terms of Use</li>
+            </ul>
+          </nav>
         </div>
       </footer>
     </div>
@@ -234,11 +253,10 @@
       }
 
       function toggleSidebar() {
-
         const btn = document.getElementById("mobile-menu-btn");
         const sidebar = document.getElementById("sidebar");
 
-        btn.addEventListener("click", ()=> {
+        btn.addEventListener("click", () => {
           alert("버튼!");
         });
       }
