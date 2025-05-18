@@ -53,6 +53,10 @@
     border: none;
   }
 
+
+.back-bg-wrap {
+  background-color: #f2e9d8;
+}
   .subscribe-btn{
     width: 117px;
     height: 40px;
@@ -86,6 +90,7 @@
     padding: 11px 24px;
     background-color: #d97652;
   
+    margin-right: 32px;
     border: none;
   }
 
@@ -326,7 +331,6 @@
     text-align: left;
 
     margin-bottom: 20px;
-    /* background-color: #d97652; */
   }
 
   /* 한 칸띄워져 보이는 현상으로 삽입 */
@@ -338,7 +342,6 @@
     width: 326px;
     height: 36px;
 
-    /* background-color: #d93652; */
     font-family: Spoqa Han Sans Neo;
     font-weight: 400;
     font-size: 14px;
@@ -404,7 +407,6 @@
     width: 326px;
     height: 102px;
 
-    /* background-color: #333; */
   }
   .high-mobile-line-break1 {
     display: block;
@@ -469,7 +471,6 @@
   }
 
  .right-button-align {
-    /* background-color: aqua; */
     width: 100%;
     height: 40px;
     position: relative;
@@ -617,7 +618,6 @@
 
   .email-icon img{
     
-    /* position: absolute; */
     width: 18px;
     height: 18px;
 
@@ -713,6 +713,7 @@ footer {
   flex-direction: row;
   gap: 16px;
 
+
   margin-top: 58px;
 }
 .social-links .icon {
@@ -732,6 +733,11 @@ footer {
 .youtube img{
   width: 18px;
   height: 18px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .footer-logo{
   width: 112px;
