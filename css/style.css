@@ -12,6 +12,7 @@
 .container {
   width: auto;
   height: auto;
+
 }
 
 h1,
@@ -48,10 +49,12 @@ main button {
   border: none;
 }
 
-.header-container,
-.hero-section {
+
+
+.back-bg-wrap {
   background-color: #f2e9d8;
 }
+
 /* 헤더 */
 .header-container {
     width: 100%;
