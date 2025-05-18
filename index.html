@@ -26,6 +26,7 @@
               <button
                 class="bg-transparent border-none"
                 id="mobile-menu-btn"
+                onClick="openSidebar()"
               >
                 <img src="./images/menu.svg" alt="네비게이션 버튼" />
               </button>
@@ -223,7 +224,7 @@
 
     <!-- 모바일 사이드 -->
     <aside id="mobile-sidebar" class="sidebar-section">
-      <img src="./images/arrow-right.svg" alt="" class="back-right-icon">
+      <img src="./images/arrow-right.svg" alt="" id="back-right-icon" onClick="closeSidebar()">
       <nav class="mobile-header-nav">
         <ul>
           <li><a href="#">Home</a></li>
@@ -257,14 +258,12 @@
         );
       }
 
-      function toggleSidebar() {
-        const btn = document.getElementById("mobile-menu-btn");
-        const sidebar = document.getElementById("sidebar");
-
-        btn.addEventListener("click", () => {
-          alert("버튼!");
-        });
+      function openSidebar() {
+         document.getElementById("mobile-sidebar").style.display = "block";
       }
+      function closeSidebar() {
+    document.getElementById("mobile-sidebar").style.display = "none";
+  }
     </script>
   </body>
 </html>
