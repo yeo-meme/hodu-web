@@ -385,6 +385,10 @@
 
 
   /* 구독 */
+
+  #scroll-top-btn {
+    display: none;
+  }
   .subscribe-wrap {
     position: relative;
     display: flex;
@@ -559,6 +563,7 @@ footer {
 }
 
 .mobile-footer-menu {
+  display: block;
   width: 85px;
   height: 120px;
 
