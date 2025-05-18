@@ -30,7 +30,7 @@
               >
                 <img src="./images/menu.svg" alt="네비게이션 버튼" />
               </button>
-            
+
               <!-- 모바일 사이드바 메뉴 관련 끝 -->
               <nav class="header-nav">
                 <ul>
@@ -161,6 +161,7 @@
             src="./images/scroll-top-btn.svg"
             alt="최상단 버튼"
             id="scroll-top-btn"
+            onClick="screenTop()"
           />
           <div class="subscribe">
             <div class="subscribe-content">
@@ -208,7 +209,6 @@
                 <img src="./images/youtube.svg" alt="블로그 아이콘" />
               </div>
             </div>
-            
           </div>
           <nav class="mobile-footer-menu">
             <ul>
@@ -224,7 +224,12 @@
 
     <!-- 모바일 사이드 -->
     <aside id="mobile-sidebar" class="sidebar-section">
-      <img src="./images/arrow-right.svg" alt="" id="back-right-icon" onClick="closeSidebar()">
+      <img
+        src="./images/arrow-right.svg"
+        alt=""
+        id="back-right-icon"
+        onClick="closeSidebar()"
+      />
       <nav class="mobile-header-nav">
         <ul>
           <li><a href="#">Home</a></li>
@@ -234,7 +239,6 @@
         <button class="mobile-cta-button">Download</button>
       </nav>
     </aside>
-
 
     <script>
       function openThanksModal() {
@@ -259,11 +263,18 @@
       }
 
       function openSidebar() {
-         document.getElementById("mobile-sidebar").style.display = "block";
+        document.getElementById("mobile-sidebar").style.display = "block";
       }
       function closeSidebar() {
-    document.getElementById("mobile-sidebar").style.display = "none";
-  }
+        document.getElementById("mobile-sidebar").style.display = "none";
+      }
+
+      function screenTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      }
     </script>
   </body>
 </html>
