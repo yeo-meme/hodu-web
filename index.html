@@ -26,20 +26,10 @@
               <button
                 class="bg-transparent border-none"
                 id="mobile-menu-btn"
-                onclick="toggleSidebar()"
               >
                 <img src="./images/menu.svg" alt="네비게이션 버튼" />
               </button>
-              <div id="sidebar">
-                <nav class="mobile-header-nav">
-                  <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Support</a></li>
-                    <li><a href="#" class="mobile-cta-button">Download</a></li>
-                  </ul>
-                </nav>
-              </div>
+            
               <!-- 모바일 사이드바 메뉴 관련 끝 -->
               <nav class="header-nav">
                 <ul>
@@ -230,6 +220,21 @@
         </div>
       </footer>
     </div>
+
+    <!-- 모바일 사이드 -->
+    <aside id="mobile-sidebar" class="sidebar-section">
+      <img src="./images/arrow-right.svg" alt="" class="back-right-icon">
+      <nav class="mobile-header-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+        <button class="mobile-cta-button">Download</button>
+      </nav>
+    </aside>
+
+
     <script>
       function openThanksModal() {
         const width = 600;

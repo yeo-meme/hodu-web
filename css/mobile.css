@@ -53,6 +53,82 @@
     border: none;
   }
 
+  /* 모바일 버전 aside */
+#mobile-menu-btn, #mobile-sidebar {
+  display: block;
+}
+/* 사이드바 숨김 기본 상태 */
+#mobile-sidebar {
+  position: fixed;          /* 전체 화면 기준으로 고정 */
+  top: 0;
+  right: 0;
+  width: 289px;
+  height: 100vh;
+  background-color: #263140;
+  z-index: 1000;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.3);
+
+
+}
+
+
+
+.mobile-header-nav{
+  margin-left: 50px;
+  margin-top: 65px;
+}
+.mobile-header-nav ul li {
+  list-style: none;
+  padding: 0;      
+  
+  margin-bottom: 30px;
+
+}
+
+.mobile-cta-button {
+  width: 119px;
+  height: 40px;
+
+  font-family: Spoqa Han Sans Neo;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: white;
+  border-radius: 40px;
+  padding: 11px 24px;
+
+  margin-top: 20px;
+  border: none;
+
+
+  background-color: #d97652;
+}
+
+.mobile-header-nav ul li a {
+  text-decoration: none;
+
+  font-family: Spoqa Han Sans Neo;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+
+
+  color: #FFFFFF;
+}
+.back-right-icon {
+  width: 32px;
+  height: 32px;
+
+  margin-top: 22px;
+  margin-left: 20px;
+}
+
+
+
   /* 헤더 */
 
   #mobile-menu-btn {
@@ -142,7 +218,6 @@
 
     margin-top: 40px;
 
-    /* background-color: #d97652; */
   }
 
   /* 헤더 단락 정렬 */

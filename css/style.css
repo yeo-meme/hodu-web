@@ -58,7 +58,7 @@ main button {
 }
 
 /* 모바일 버전 */
-#mobile-menu-btn, #sidebar {
+#mobile-menu-btn, #mobile-sidebar {
   display: none;
 }
 
